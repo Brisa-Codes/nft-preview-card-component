@@ -66,11 +66,12 @@ body {
 .card-content-wrapper img:hover {
     background: var(--cyan);
     opacity: 1;
+    cursor: pointer; 
 }
 
 .card-content-wrapper img:hover + .image-hover {
+    display: block;
     cursor: pointer; 
-    display: unset;
 } 
 
 .card-content-wrapper h2 {
